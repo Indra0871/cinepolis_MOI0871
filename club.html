@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Cinépolis - Club Cinépolis</title>
+</head>
+
+<body bgcolor="#001838" text="#FFFFFF" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+
+    <!-- BARRA SUPERIOR: Encabezado Principal -->
+    <table border="0" width="100%" bgcolor="#0B1C3A" cellpadding="15" cellspacing="0" align="center">
+        <tr>
+            <td align="center">
+                <font face="Arial, sans-serif" size="7" color="#FFFFFF">
+                    <b>C I N É P O L I S</b>
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    <!-- BARRA HORIZONTAL DE NAVEGACIÓN (<nav>) -->
+    <nav align="center" style="background-color: #002855; padding: 15px 0px; font-family: 'Montserrat', sans-serif;">
+        <ul style="list-style-type: none; margin: 0; padding: 0;">
+            <a href="index.html#cartelera" style="color: #FFFFFF; text-decoration: none; font-size: 16px;"><b>INICIO &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</b></a>
+            <a href="index.html#proximamente" style="color: #FFFFFF; text-decoration: none; font-size: 16px;"><b>PRÓXIMAMENTE &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</b></a>
+            <a href="dulceria.html" style="color: #FFFFFF; text-decoration: none; font-size: 16px;"><b>DULCERÍA &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</b></a>
+            <a href="club.html" style="color: #FFCC00; text-decoration: none; font-size: 16px;"><b>CLUB CINÉPOLIS</b></a>
+        </ul>
+    </nav>
+
+    <!-- TÍTULO DE LA SECCIÓN -->
+    <table border="0" width="100%" align="center" cellpadding="20" cellspacing="0">
+        <tr>
+            <td align="center">
+                <font face="Montserrat, Arial, sans-serif" size="6" color="#FFCC00">
+                    <h2>ÚNETE A CLUB CINÉPOLIS</h2>
+                </font>
+                <font face="Arial, sans-serif" size="3" color="#CCCCCC">
+                    <p>Regístrate para acumular puntos, recibir promociones 2x1 y descuentos en dulcería.</p>
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    <!-- FORMULARIO DE REGISTRO -->
+    <table border="0" width="600" align="center" bgcolor="#002855" cellpadding="25" cellspacing="0" style="border-radius: 12px;">
+        <tr>
+            <td>
+                <form action="#" method="post">
+                    
+                    <!-- NOMBRE COMPLETO -->
+                    <font face="Montserrat, Arial, sans-serif" size="3" color="#FFCC00">
+                        <b>Nombre(s):</b>
+                    </font><br>
+                    <input type="text" name="nombre" placeholder="Ingresa tu nombre" required style="width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 15px; border-radius: 5px; border: none; font-family: Arial, sans-serif;">
+                    <br>
+
+                    <!-- APELLIDOS -->
+                    <font face="Montserrat, Arial, sans-serif" size="3" color="#FFCC00">
+                        <b>Apellidos:</b>
+                    </font><br>
+                    <input type="text" name="apellidos" placeholder="Ingresa tus apellidos" required style="width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 15px; border-radius: 5px; border: none; font-family: Arial, sans-serif;">
+                    <br>
+
+                    <!-- CORREO ELECTRÓNICO -->
+                    <font face="Montserrat, Arial, sans-serif" size="3" color="#FFCC00">
+                        <b>Correo Electrónico:</b>
+                    </font><br>
+                    <input type="email" name="correo" placeholder="ejemplo@correo.com" required style="width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 15px; border-radius: 5px; border: none; font-family: Arial, sans-serif;">
+                    <br>
+
+                    <!-- CONTRASEÑA -->
+                    <font face="Montserrat, Arial, sans-serif" size="3" color="#FFCC00">
+                        <b>Contraseña:</b>
+                    </font><br>
+                    <input type="password" name="password" placeholder="Crea tu contraseña" required style="width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 15px; border-radius: 5px; border: none; font-family: Arial, sans-serif;">
+                    <br>
+
+                    <!-- FECHA DE NACIMIENTO Y GÉNERO -->
+                    <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="48%" valign="top">
+                                <font face="Montserrat, Arial, sans-serif" size="3" color="#FFCC00">
+                                    <b>Fecha de Nacimiento:</b>
+                                </font><br>
+                                <input type="date" name="fecha_nacimiento" required style="width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 15px; border-radius: 5px; border: none; font-family: Arial, sans-serif;">
+                            </td>
+                            <td width="4%"></td>
+                            <td width="48%" valign="top">
+                                <font face="Montserrat, Arial, sans-serif" size="3" color="#FFCC00">
+                                    <b>Cine Favorito:</b>
+                                </font><br>
+                                <select name="cine_favorito" style="width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 15px; border-radius: 5px; border: none; font-family: Arial, sans-serif;">
+                                    <option value="plaza">Cinépolis Plaza</option>
+                                    <option value="centro">Cinépolis Centro</option>
+                                    <option value="vip">Cinépolis VIP</option>
+                                    <option value="sendero">Cinépolis Sendero</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <!-- NIVEL DE MEMBRESÍA PREFERIDA -->
+                    <font face="Montserrat, Arial, sans-serif" size="3" color="#FFCC00">
+                        <b>Tipo de Tarjeta deseada:</b>
+                    </font><br><br>
+                    <font face="Arial, sans-serif" size="2" color="#FFFFFF">
+                        <input type="radio" name="tarjeta" value="fan" checked> Fan
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="tarjeta" value="fanatic"> Fanático
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="tarjeta" value="superfan"> Súper Fan
+                    </font>
+                    <br><br>
+
+                    <!-- TÉRMINOS Y CONDICIONES -->
+                    <font face="Arial, sans-serif" size="2" color="#FFFFFF">
+                        <input type="checkbox" name="terminos" required> Acepto los términos, condiciones y aviso de privacidad.
+                    </font>
+                    <br><br>
+
+                    <!-- BOTONES DE ENVÍO -->
+                    <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td align="center">
+                                <input type="submit" value="REGISTRARME" style="background-color: #FFCC00; color: #001838; font-family: 'Montserrat', sans-serif; font-weight: bold; font-size: 16px; padding: 12px 30px; border: none; border-radius: 20px; cursor: pointer;">
+                                &nbsp;&nbsp;
+                                <input type="reset" value="Limpiar" style="background-color: #555555; color: #FFFFFF; font-family: 'Montserrat', sans-serif; font-size: 14px; padding: 12px 20px; border: none; border-radius: 20px; cursor: pointer;">
+                            </td>
+                        </tr>
+                    </table>
+
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+</body>
+</html>
